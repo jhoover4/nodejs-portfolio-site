@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "project_name": "Public Api with JS FP",
+    "description": "Example employee directory using user api and javascript FP.",
+    "technologies": ["Javascript", "Rambda", "FP"],
+    "live_link": "https://jhoover4.github.io/public-api-request/",
+    "github_link": "https://github.com/jhoover4/public-api-request",
+    "image_urls": []
+  },
+  {
+    "id": 2,
+    "project_name": "OOP Game Show",
+    "description": "Hangman web app using OO Javascript.",
+    "technologies": ["Javascript", "OOP"],
+    "live_link": "https://jhoover4.github.io/oop-game-show/",
+    "github_link": "https://github.com/jhoover4/oop-game-show",
+    "image_urls": []
+  },
+  {
+    "id": 3,
+    "project_name": "Interactive Form",
+    "description": "Enhanced Registration Form with jQuery.",
+    "technologies": ["Javascript", "jQuery"],
+    "live_link": "https://jhoover4.github.io/interactive-form/",
+    "github_link": "https://github.com/jhoover4/interactive-form",
+    "image_urls": []
+  },
+  {
+    "id": 4,
+    "project_name": "List Pagination and Filtering",
+    "description": "Sample list of students filtered and paginated using javascript.",
+    "technologies": ["Javascript", "Vanilla Javascript"],
+    "live_link": "https://jhoover4.github.io/list-pagination-and-filtering/",
+    "github_link": "https://github.com/jhoover4/list-pagination-and-filtering",
+    "image_urls": []
+  },
+  {
+    "id": 5,
+    "project_name": "Random Quote Generator",
+    "description": "Simple quote generator for the Full Stack Javascript tech degree",
+    "technologies": ["Javascript", "Vanilla Javascript"],
+    "live_link": "https://jhoover4.github.io/random-quote-generator/",
+    "github_link": "https://github.com/jhoover4/random-quote-generator",
+    "image_urls": []
+  }
+]

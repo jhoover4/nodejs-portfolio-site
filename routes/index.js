@@ -1,19 +1,31 @@
-var express = require('express');
+var express = require("express");
 var router = express.Router();
+var createError = require("http-errors");
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index');
+var projectFixture = require("../data.json");
+
+router.get("/", function(req, res, next) {
+  res.render("index");
 });
 
-router.get('/about', function(req, res, next) {
-  res.render('about');
+router.get("/about", function(req, res, next) {
+  res.render("about");
 });
 
+router.get("/projects/:projectId", function(req, res, next) {
+  if (isNaN(req.params.projectId)) {
+    next(createError(404));
+    return;
+  }
 
-router.get('/projects:projectId', function(req, res, next) {
-  res.render('index');
+  const projectId = req.params.projectId - 1;
+
+  if (projectId >= projectFixture.length || projectId <= 0) {
+    next(createError(404));
+    return;
+  }
+
+  res.render("project", projectFixture[projectId]);
 });
-
 
 module.exports = router;
