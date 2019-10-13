@@ -1,11 +1,15 @@
 # Static Node and Express Site
 
-An employee contact information app using an API and Functional Programming techniques.
+Basic Express app to show past projects in the Javascript Techdegree.
 
 ## Description
 
-For this project, you'll build an app for a fictional company called Awesome Startup, a distributed company with remote employees working all over the world. They need a smart way for employees to share contact information with each other.
+In this project, you'll create a gorgeous portfolio site to showcase the great projects you've built. The site will contain a modern landing page, an about page where you'll have a chance to share contact info, practice your elevator pitch and talk a little about yourself, and a series of project pages to show off and detail at least your first five projects from this Techdegree.
 
 ## Style Changes
 
-Added box shadows to employee cards.
+- Updated background color of sidebar and nav
+- Updated text color in sidebar
+- Updated color of buttons
+- Added picture to sidebar
+- Added Favicon

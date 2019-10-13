@@ -6,25 +6,35 @@
     "technologies": ["Javascript", "Rambda", "FP"],
     "live_link": "https://jhoover4.github.io/public-api-request/",
     "github_link": "https://github.com/jhoover4/public-api-request",
-    "image_urls": []
+    "image_urls": ["/static/images/public_api_1200x550.png"],
+    "thumbnail": "/static/images/public_api_550x550.png"
   },
   {
     "id": 2,
     "project_name": "OOP Game Show",
     "description": "Hangman web app using OO Javascript.",
-    "technologies": ["Javascript", "OOP"],
+    "technologies": ["Javascript", "OOP", "CSS"],
     "live_link": "https://jhoover4.github.io/oop-game-show/",
     "github_link": "https://github.com/jhoover4/oop-game-show",
-    "image_urls": []
+    "image_urls": [
+      "/static/images/phrase_hunter_1200x550.png",
+      "/static/images/phrase_hunter_2_1200x550.png",
+      "/static/images/phrase_hunter_3_1200x550.png"
+    ],
+    "thumbnail": "/static/images/phrase_hunter_550x550.png"
   },
   {
     "id": 3,
     "project_name": "Interactive Form",
     "description": "Enhanced Registration Form with jQuery.",
-    "technologies": ["Javascript", "jQuery"],
+    "technologies": ["Javascript", "jQuery", "CSS"],
     "live_link": "https://jhoover4.github.io/interactive-form/",
     "github_link": "https://github.com/jhoover4/interactive-form",
-    "image_urls": []
+    "image_urls": [
+      "/static/images/interactive_form_1200x550.png",
+      "/static/images/interactive_form_2_1200x550.png"
+    ],
+    "thumbnail": "/static/images/interactive_form_550x550.png"
   },
   {
     "id": 4,
@@ -33,7 +43,12 @@
     "technologies": ["Javascript", "Vanilla Javascript"],
     "live_link": "https://jhoover4.github.io/list-pagination-and-filtering/",
     "github_link": "https://github.com/jhoover4/list-pagination-and-filtering",
-    "image_urls": []
+    "image_urls": [
+      "/static/images/list_filter_1200x550.png",
+      "/static/images/list_filter_2_1200x550.png",
+      "/static/images/list_filter_3_1200x550.png"
+    ],
+    "thumbnail": "/static/images/list_filter_550x550.png"
   },
   {
     "id": 5,
@@ -42,6 +57,7 @@
     "technologies": ["Javascript", "Vanilla Javascript"],
     "live_link": "https://jhoover4.github.io/random-quote-generator/",
     "github_link": "https://github.com/jhoover4/random-quote-generator",
-    "image_urls": []
+    "image_urls": ["/static/images/random_quote_1200x550.png"],
+    "thumbnail": "/static/images/random_quote_550x550.png"
   }
 ]

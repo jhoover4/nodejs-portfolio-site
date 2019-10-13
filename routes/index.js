@@ -5,7 +5,7 @@ var createError = require("http-errors");
 var projectFixture = require("../data.json");
 
 router.get("/", function(req, res, next) {
-  res.render("index");
+  res.render("index", { projects: projectFixture });
 });
 
 router.get("/about", function(req, res, next) {
@@ -20,7 +20,7 @@ router.get("/projects/:projectId", function(req, res, next) {
 
   const projectId = req.params.projectId - 1;
 
-  if (projectId >= projectFixture.length || projectId <= 0) {
+  if (projectId >= projectFixture.length || projectId < 0) {
     next(createError(404));
     return;
   }
